@@ -17,6 +17,7 @@ img {
 	margin-left: 10px;
 	margin-right: 10px;
 	border: 1px solid #D3D3D3;
+	/*set image to proportionally resize*/
 	height: auto;
 	width: auto;
 	max-width: 300px;
@@ -35,7 +36,8 @@ img {
 }
 
 .list {
-	font-style: normal;
+	/*to show only bold headings not as italic*/
+	font-style: normal; 
 	font-weight: bold;
 }
 
